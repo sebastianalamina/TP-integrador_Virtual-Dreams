@@ -1,4 +1,4 @@
-# Virtual Dreams
+# Virtual Dreams :cloud:
 
 TP Integrador.
 
@@ -56,11 +56,11 @@ devueltos?
 Los *response status codes* son códigos que envía el servidor como respuesta a una consulta del cliente. Indican si la consulta fue completada exitosamente y ayudan a identificar la causa del problema, si es que surge alguno.
 
 Estos códigos se dividen en 5 grupos...
-1. respuestas informativas (códigos 100 al 199): indican que la consulta fue recibida y entendida.
-2. peticiones correctas (códigos 200 al 299): indican que la consulta fue recibida, entendida y aceptada.
-3. redirecciones (códigos 300 al 399): indican que el cliente debe hacer algo más para completar la consulta.
-4. errores del cliente (códigos 400 al 499): indican que hubo un error por parte del cliente.
-5. errores del servidor (códigos 500 al 599): indican que hubo un error por parte del servidor.
+* respuestas informativas (códigos 100 al 199): indican que la consulta fue recibida y entendida.
+* peticiones correctas (códigos 200 al 299): indican que la consulta fue recibida, entendida y aceptada.
+* redirecciones (códigos 300 al 399): indican que el cliente debe hacer algo más para completar la consulta.
+* errores del cliente (códigos 400 al 499): indican que hubo un error por parte del cliente.
+* errores del servidor (códigos 500 al 599): indican que hubo un error por parte del servidor.
 
 6. ¿Cómo se envía data en un *GET* y cómo en un *POST*?
 
@@ -134,7 +134,7 @@ Un mensaje SOAP es simplemente un documento XML que contiene los siguientes elem
 
 REST (*REpresentational State Transfer*) es un estilo de arquitectura de software para crear *servicios web RESTful* (una arquitectura de software indica la estructura, funcionamiento y demás reglas que debe cumplir cierto software al momento de ser creado).
 
-Igual que el estándar SOAP, estos servicios web RESTful proveen interoperabilidad entre aplicaciones de diferentes lenguajes de programación y tecnologías, permitendo a los sistemas que hacen consultas accesar y manipular representaciones textuales de los recursos en la web.
+Igual que el estándar SOAP, estos servicios web RESTful proveen interoperabilidad entre aplicaciones de diferentes lenguajes de programación y tecnologías, permitendo a los clientes accesar y manipular representaciones textuales de los recursos en la web.
 
 El estándar REST define 6 restricciones que deben seguirse para que una interfaz sea considerada RESTful...
 
@@ -145,8 +145,7 @@ El estándar REST define 6 restricciones que deben seguirse para que una interfa
 * La interfaz debe ser estandarizada; cada capa del sistema debe ser independiente.
 * Opcionalmente, el servidor puede enviar scripts de código para extender la funcionalidad del cliente.
 
-11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-
-type en un header?
+11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
 
 En un request, el header es información que el navegador del cliente envía al servidor web. En esta información se incluyen los detalles sobre lo que el navegador quiere y aceptará del servidor.
 
