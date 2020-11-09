@@ -7,7 +7,11 @@ TP Integrador.
 
 ## Ejecución :computer:
 
+Para ejecutar el script del **ejercicio 4**, basta con correr el archivo *mostrarPersonas.js* dentro de la carpeta *src* con Node.
 
+Es decir, en una terminal, "pararse" dentro de la carpeta *src* y ejecutar el comando:
+
+```node mostrarPersonas.js```
 
 ## Ejercicio 2 :heavy_check_mark:
 
