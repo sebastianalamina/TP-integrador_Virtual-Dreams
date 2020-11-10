@@ -5,7 +5,7 @@ const url = 'https://reclutamiento-14cf7.firebaseio.com/personas.json';
 
 // Se utiliza el método 'get' pues es la versión simplificada
 // del método 'request' cuando se trata del verbo GET...
-var x = https.get(url, (res) => {
+https.get(url, (res) => {
   // Imprimimos información sobre la consulta...
   console.log(`Código de estado: ${res.statusCode} - ${res.statusMessage}`);
   console.log(`Headers:`);
