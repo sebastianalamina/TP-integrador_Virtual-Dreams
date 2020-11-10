@@ -156,3 +156,14 @@ En un request, el header es información que el navegador del cliente envía al 
 También se incluye el tipo, versión y capacidades del navegador que realiza la consulta para que el servidor regrese data compatible. Así, la llave *Content-type* es un campo dentro del header que indica el tipo de medio (o contenido) del recurso que se está manipulando.
 
 En una *response*, la llave *Content-type* le dice al cliente qué tipo de contenido le está devolviendo mientras que, en una *request*, la llave *Content-type* le dice al servidor qué tipo de contenido le está enviando (como en **POST** o en **PUT**).
+
+## Ejercicio 3 :heavy_check_mark:
+
+Al realizar un request GET a la URL:
+![Ejercicio 3 - Primer GET](/img/ej3-01.png)
+
+Al realizar un request POST a la URL:
+![Ejercicio 3 - Request POST](/img/ej3-02.png)
+
+Al realizar nuevamente un request GET a la URL notamos que el POST añadió información:
+![Ejercicio 3 - Segundo GET](/img/ej3-03.png)
