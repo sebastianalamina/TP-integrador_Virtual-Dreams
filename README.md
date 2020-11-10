@@ -7,11 +7,19 @@ TP Integrador.
 
 ## Ejecución :computer:
 
-Para ejecutar el script del **ejercicio 4**, basta con correr el archivo *mostrarPersonas.js* dentro de la carpeta *src* con Node.
-
-Es decir, en una terminal, "pararse" dentro de la carpeta *src* y ejecutar el comando:
+Para ejecutar el script del **ejercicio 4**, basta con correr el archivo *mostrarPersonas.js* dentro de la carpeta *src* con Node. Es decir, en una terminal, "pararse" dentro de la carpeta *src* y ejecutar el comando:
 
 ```node mostrarPersonas.js```
+
+Para ejecutar el servidor relacionado a los **ejercicios 5 y 6**, es necesario hacer lo siguiente:
+
+1. Dentro de la carpeta *src*, ejecutar el comando ```npm start```.
+
+2. La consola imprimirá el *[puerto]* sobre el cual se está ejecutando el servidor (por defecto; 3000).
+
+3. En un navegador, ingresar a ```localhost:[puerto]``` (por defecto; ```localhost:3000```).
+
+4. Automáticamente cargará el archivo HTML del ejercicio 6 sobre el servidor creado en el ejercicio 5.
 
 ## Ejercicio 2 :heavy_check_mark:
 
